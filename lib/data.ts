@@ -2,8 +2,7 @@ import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
     // Contact is handled through Upwork only. No email or GitHub on the public site.
-    // TODO: set the real Upwork profile URL below.
-    upworkProfile: 'https://www.upwork.com/freelancers/~ateeq',
+    upworkProfile: 'https://www.upwork.com/freelancers/~01f847f10e83e6cd34',
 };
 
 // Left empty on purpose so the site has no off-platform contact links (safe to share on Upwork).
