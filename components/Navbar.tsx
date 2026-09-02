@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 import { useState } from 'react';
 import { MoveUpRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { SOCIAL_LINKS } from '@/lib/data';
+import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
 const COLORS = [
     'bg-yellow-500 text-black',
@@ -150,9 +150,14 @@ const Navbar = () => {
 
                 <div className="w-full max-w-[300px] mx-8 sm:mx-auto">
                     <p className="text-muted-foreground mb-4">GET IN TOUCH</p>
-                    <p className="text-lg">
-                        Available for freelance work. Reach me through Upwork.
-                    </p>
+                    <a
+                        href={GENERAL_INFO.upworkProfile}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-lg hover:underline"
+                    >
+                        Hire me on Upwork
+                    </a>
                 </div>
             </div>
         </>

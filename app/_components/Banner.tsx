@@ -1,6 +1,7 @@
 'use client';
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
+import { GENERAL_INFO } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -55,7 +56,9 @@ const Banner = () => {
                     </p>
                     <Button
                         as="link"
-                        href="#contact"
+                        href={GENERAL_INFO.upworkProfile}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
