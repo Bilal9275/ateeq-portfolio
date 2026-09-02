@@ -11,14 +11,6 @@ const Footer = () => {
                     <p className="leading-none text-muted-foreground">
                         Built by Muhammad Ateeq
                     </p>
-                    <a
-                        href="https://tajmirul.site/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-muted-foreground hover:underline hover:text-white"
-                    >
-                        Template by Tajmirul Islam
-                    </a>
                 </div>
             </div>
         </footer>

@@ -595,7 +595,7 @@ export const MY_EXPERIENCE = [
     {
         title: 'Senior Full-Stack & Blockchain Developer',
         company: 'Zin Finance',
-        duration: 'Apr 2022 - Present',
+        duration: 'Apr 2022 - Jun 2026',
     },
     {
         title: 'Software Engineer',
