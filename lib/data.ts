@@ -1,21 +1,13 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    // TODO: replace with Ateeq's real email + Upwork profile
-    email: 'hello@ateeq.dev',
-
-    emailSubject: "Let's work together on a project",
-    emailBody: 'Hi Ateeq, I would like to talk to you about...',
-
+    // Contact is handled through Upwork only. No email or GitHub on the public site.
+    // TODO: set the real Upwork profile URL below.
     upworkProfile: 'https://www.upwork.com/freelancers/~ateeq',
 };
 
-export const SOCIAL_LINKS = [
-    // TODO: replace '#' with Ateeq's real profile URLs
-    { name: 'github', url: '#' },
-    { name: 'linkedin', url: '#' },
-    { name: 'upwork', url: GENERAL_INFO.upworkProfile },
-];
+// Left empty on purpose so the site has no off-platform contact links (safe to share on Upwork).
+export const SOCIAL_LINKS: { name: string; url: string }[] = [];
 
 export const MY_STACK = {
     frontend: [

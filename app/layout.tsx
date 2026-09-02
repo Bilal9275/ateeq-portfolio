@@ -10,7 +10,6 @@ import ParticleBackground from '@/components/ParticleBackground';
 import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
-import StickyEmail from './_components/StickyEmail';
 
 const antonFont = Anton({
     weight: '400',
@@ -67,7 +66,6 @@ export default function RootLayout({
                     <Preloader />
                     <ScrollProgressIndicator />
                     <ParticleBackground />
-                    <StickyEmail />
                 </ReactLenis>
             </body>
         </html>
